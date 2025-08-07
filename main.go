@@ -25,5 +25,7 @@ func main() {
 	// fmt.Print("Hello, \n")
 	// fmt.Print("World! ")
 
-	fmt.Println("Hello, my name is", myName, "and i'm", age, "years old")
+	// fmt.Println("Hello, my name is", myName, "and i'm", age, "years old")
+
+	fmt.Printf("Hello, my name in %v and i'm %v years old", myName, age)
 }
