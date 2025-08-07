@@ -4,31 +4,11 @@ import "fmt"
 
 func main() {
 
-	var myName string = "Daniele"
-	// var mySurname = "Checchin"
+	ages := [4]int{15, 18, 20, 22}
 
-	// //var age int = 28
-	age := 28
+	fmt.Println(ages, len(ages))
 
-	// //var height float64 = 1.71
-	// height := 1.71
+	names := [3]string{"Alice", "Bob", "Charlie"}
 
-	// fmt.Println(myName, mySurname, age, height)
-
-	// myphrase := "My name is Daniele and i'm learning to program in Go!"
-
-	// fmt.Println(myphrase)
-
-	// fmt.Print("Hello, ")
-	// fmt.Print("World!")
-
-	// fmt.Print("Hello, \n")
-	// fmt.Print("World! ")
-
-	// fmt.Println("Hello, my name is", myName, "and i'm", age, "years old")
-
-	// fmt.Printf("Hello, my name in %v and i'm %v years old", myName, age)
-
-	var example = fmt.Sprintf("Hello, my name is %v and i'm %v years old", myName, age)
-	fmt.Println(example)
+	fmt.Println(names, len(names))
 }
