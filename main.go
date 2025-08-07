@@ -27,5 +27,8 @@ func main() {
 
 	// fmt.Println("Hello, my name is", myName, "and i'm", age, "years old")
 
-	fmt.Printf("Hello, my name in %v and i'm %v years old", myName, age)
+	// fmt.Printf("Hello, my name in %v and i'm %v years old", myName, age)
+
+	var example = fmt.Sprintf("Hello, my name is %v and i'm %v years old", myName, age)
+	fmt.Println(example)
 }
